@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+
     <title>Truckmuche - Contact</title>
 </head>
 
@@ -29,16 +31,37 @@
         </div>
     </header>
 
-    <section>
         <img src="" alt="photo du Truckmuche">
 
+    <section id="pageform">
+        <div id="text">
         <h1>Contactez-nous</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque sit amet ligula semper rhoncus. In nunc purus, feugiat ut sapien sodales, pellentesque scelerisque arcu. </p>
+        </div>
+            <form action="/ma-page-de-traitement" method="post">
+                <div id="blockname">
+                    <label for="name"></label>
+                    <input type="text" id="surname" name="user_surname" placeholder="Nom">
 
-            <form action=""></form>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="user_mail" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+
+                    <input type="button" value="Envoyer le message" id="sendmsg">
+                
+                </div>
+
+
+            </form>
         
         
-    <input type="button" value="Envoyer le message">
     </section>
 
     
