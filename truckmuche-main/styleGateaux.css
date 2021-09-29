@@ -1,0 +1,15 @@
+#nosProduits {
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.photosProduits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+    margin-bottom: 10px;
+}
