@@ -1,14 +1,16 @@
+/*Css page présentation des gateaux*/
+
 body {
     background-color: #d6c7bd;
 }
 
-header {
+/*header {
     background-color: #1a2b44;
 }
 
 footer {
     background-color: #1a2b44;
-}
+}*/
 
 #nosProduits {
     text-align: center;
@@ -20,6 +22,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
+}
+
+.photosProduits .gateauxEtDescription img{
+    width: 130px;
+    height: 130px;
 }
 
 .gateauxEtDescription{
@@ -34,12 +41,12 @@ footer {
     
 }
 
-
 .nomGateaux{
     font-weight: bold;
     font-size: 20px;
 }
 
+/*Css reponsive page présentation des gateaux*/
 
 @media screen and (min-width: 768px) {
 
@@ -66,5 +73,10 @@ footer {
 
     .nomGateaux{
         font-size: 25px;
+    }
+
+    .photosProduits .gateauxEtDescription img{
+        width: 250px;
+        height: 250px;
     }
 }
