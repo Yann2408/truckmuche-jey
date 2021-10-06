@@ -12,8 +12,10 @@ html{
 
 body {
     font-family: Lato;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #d6c7bd;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
  
@@ -124,8 +126,7 @@ h2{
     display: flex;
     width: 95%;
     margin: 20px auto;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
     justify-content: space-between;
     
 }
@@ -138,8 +139,15 @@ h2{
 /*CSS page formulaire*/
 
 #imgentete {
+    box-sizing: border-box;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.textecontact{
+    margin-left: 15px;
 }
 
 h1 {
@@ -176,7 +184,7 @@ form {
 }
 
 #mail {
-    width:  98%;
+    width: 98%;
 }
 
 input {
@@ -211,8 +219,8 @@ textarea:focus{
 
 /* Ci-dessous, le CSS pour le footer */
 
-footer 
-{
+footer {
+    box-sizing: border-box;
     background-color: #1a2b44;
     padding: 0px 15px 15px 15px;
     display: flex;
@@ -222,7 +230,7 @@ footer
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 320px;
 }
 
 footer p, h3 {
@@ -244,6 +252,10 @@ a {
 .fab {
     margin-bottom: 20px;
     width: 20px;
+}
+
+#sendmsg{
+    margin-bottom: 20px;
 }
 
 /*Css page présentation des gateaux*/
