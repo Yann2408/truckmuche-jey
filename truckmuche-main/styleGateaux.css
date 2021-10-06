@@ -1,0 +1,82 @@
+/*Css page présentation des gateaux*/
+
+body {
+    background-color: #d6c7bd;
+}
+
+/*header {
+    background-color: #1a2b44;
+}
+
+footer {
+    background-color: #1a2b44;
+}*/
+
+#nosProduits {
+    text-align: center;
+    font-size: 40px;
+}
+
+.photosProduits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.photosProduits .gateauxEtDescription img{
+    width: 130px;
+    height: 130px;
+}
+
+.gateauxEtDescription{
+    width: 130px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+    background-color: #a77252;
+    border: 0px;
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+    
+}
+
+.nomGateaux{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Css reponsive page présentation des gateaux*/
+
+@media screen and (min-width: 768px) {
+
+    .photosProduits img{
+        width: 250px;
+        height: 250px;
+    }
+
+    #nosProduits {
+        font-size: 60px;
+    }
+
+    .photosProduits{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gateauxEtDescription{
+        width: 252px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .nomGateaux{
+        font-size: 25px;
+    }
+
+    .photosProduits .gateauxEtDescription img{
+        width: 250px;
+        height: 250px;
+    }
+}
