@@ -34,13 +34,16 @@ form {
     display: flex;
 }
 
-#surname, #name {
-    width: 50%;
-}
-
 #surname {
     margin-right: 15px;
+}
 
+#mail {
+    width : 95%;
+}
+
+#msg {
+    width: 98%;
 }
 
 input {
