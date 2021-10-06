@@ -67,7 +67,7 @@ nav a:hover{
 /*fin header*/
 
 
-/*history*/
+/*home*/
 
 section img{
     width: 95%;
@@ -108,7 +108,8 @@ section p{
         border-style: solid;
         border-radius:10px;
         text-align: center;
-        }
+}
+
 h2{
     text-align: center;
     font-size: 30px;
@@ -136,6 +137,28 @@ h2{
     height: 250px;
 }
 
+
+/*CSS page apropos*/
+
+#photomarc {
+    width: 200px;
+    height: 200px;
+    background:url(src/portrait\ marc.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left; 
+    shape-outside: circle();
+    margin: 30px;
+
+}
+
+#monhistoire {
+    text-align: center;
+
+}
+ 
+
+
 /*CSS page formulaire*/
 
 #imgentete {
@@ -150,7 +173,7 @@ h2{
     margin-left: 15px;
 }
 
-h1 {
+#contacteznous {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -230,7 +253,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 320px;
+    height: 25%;
 }
 
 footer p, h3 {
@@ -294,9 +317,25 @@ a {
     font-size: 20px;
 }
 
-/*Css reponsive page présentation des gateaux*/
+/*CSS responsive (min-width: 768px)*/
 
 @media screen and (min-width: 768px) {
+
+/*CSS respnsive page contact*/
+
+#contacteznous {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.textecontact{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+/*Css reponsive page présentation des gateaux*/
 
     .photosProduits img{
         width: 250px;
