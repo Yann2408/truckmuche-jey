@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 html{
@@ -37,8 +38,7 @@ header img{
 .header img:hover {
     transform: scale(1, 1);
 }
-
-nav{
+.header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,6 +46,8 @@ nav{
     padding: 20px 40px 20px 0px;
     
 }
+
+
 nav a{
     text-transform: uppercase;
     text-align: center;
@@ -88,15 +90,16 @@ section p{
     margin: 10px auto ;
 }
 
-
+/*buttons*/
 .buttons{
     display: flex;
     width: 50%;
+    height: 80px;
     align-items: center;
         margin: 15px auto;
         text-decoration:none;
         font-weight: 30;
-        font-size: 16px;
+        font-size: 25px;
         color:white;
         padding-top:5px;
         padding-bottom:5px;
@@ -109,14 +112,17 @@ section p{
         border-radius:10px;
         text-align: center;
         }
+        /*produits*/
 h2{
+    
+    
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
 }
 .secproduits{
     display: flex;
-    width: 95%;
+    width: 80%;
      font-size: 16px;
      text-align:left;
      margin: 10px auto ;
@@ -133,79 +139,59 @@ h2{
 
 .photosproduitsindex img{
     display: flex;
-    height: 250px;
+    width: 80%;
+   
+    height: 180px;
+    margin: 10px auto;
+
 }
 
-/*CSS page formulaire*/
+/* carte*/
+.localitation{
+    width: 95%;
+    margin: 15px auto;
+    
+}
+.carte{
+    display: flex;
+    width: auto;
+    margin: 0px;
+   
+}
 
-#imgentete {
-    box-sizing: border-box;
-    width: 100%;
+.carte iframe{
+   
+   display: flex;
+   width: 90%;
+  
+   margin: 15px auto;
+   
+
+   
+}
+
+/*table*/
+.calendrier{
+ width: 95%;
+ margin:  auto;
+ 
+}
+.calendrier h2{
+    margin: auto;
     margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right:20px;
 }
-
-.textecontact{
-    margin-left: 15px;
+.calendrier h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
-
-h1 {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
+.calendrier ul{
+    background-color:#1a2b44;
+    list-style: none;
+    margin:  auto;
     margin-bottom: 15px;
-}
-
-/* Ci-dessous, le CSS pour le formulaire */
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin: 15px;
-}
-
-#pageform {
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-#blockname {
-    display: flex;
-}
-
-#surname, #name {
-    width: 50%;
-}
-
-#surname {
-    margin-right: 15px;
-}
-
-#mail {
-    width: 98%;
-}
-
-input {
-    height: 40px;
-}
-
-textarea {
-    height: 150px;
-    margin-bottom: 15px;
-}
-
-input, textarea {
-    width: 100%;
-    border-radius: 20px;
-    border: solid 2px #e0e0e0;
-    font-family: Lato;
-}
-
-input, textarea::placeholder{
-    padding-left: 15px;
-
+    text-align: left;
+    border-radius: 5px;
 }
 input:focus{
     outline: none !important;
@@ -326,5 +312,11 @@ a {
     .photosProduits .gateauxEtDescription img{
         width: 250px;
         height: 250px;
+    }
+
+.calendrier ul li {
+    margin-bottom: 8px;
+    margin-left: 5px;
+    color: white;
     }
 }
