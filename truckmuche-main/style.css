@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
  
 
@@ -19,23 +20,26 @@
     
 }
 
-.header img{
-    width: 20%;
+.header a img{
+    width: 60%;
     align-items: center;
     margin-left: 5px;
     
 
 }
-
-nav{
+.header nav {
     display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
     align-items: center;
-    
+    width: 80%;
 }
+
+
 nav a{
-   
-   margin-left: 10px;
-   margin-right: 10px;
+   margin-left: 3px;
+  padding-right: 3px;
+   font-size: 18px;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -72,15 +76,16 @@ section p{
     margin: 10px auto ;
 }
 
-
+/*buttons*/
 .buttons{
     display: flex;
     width: 50%;
+    height: 80px;
     align-items: center;
         margin: 15px auto;
         text-decoration:none;
         font-weight: 30;
-        font-size: 16px;
+        font-size: 25px;
         color:white;
         padding-top:5px;
         padding-bottom:5px;
@@ -93,14 +98,17 @@ section p{
         border-radius:10px;
         text-align: center;
         }
+        /*produits*/
 h2{
+    
+    
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
 }
 .secproduits{
     display: flex;
-    width: 95%;
+    width: 80%;
      font-size: 16px;
      text-align:left;
      margin: 10px auto ;
@@ -118,10 +126,65 @@ h2{
 
 .photosproduits img{
     display: flex;
-    
+    width: 80%;
    
-    height: 250px;
-    margin: ;
+    height: 180px;
+    margin: 10px auto;
 
 }
+
+/* carte*/
+.localitation{
+    width: 95%;
+    margin: 15px auto;
+    
+}
+.carte{
+    display: flex;
+    width: auto;
+    margin: 0px;
+   
+}
+
+.carte iframe{
+   
+   display: flex;
+   width: 90%;
+  
+   margin: 15px auto;
+   
+
+   
+}
+
+/*table*/
+.calendrier{
+ width: 95%;
+ margin:  auto;
  
+}
+.calendrier h2{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.calendrier h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.calendrier ul{
+    background-color:#1a2b44;
+    list-style: none;
+    margin:  auto;
+    margin-bottom: 15px;
+    text-align: left;
+    border-radius: 5px;
+
+    
+}
+.calendrier ul li{
+    margin-bottom: 8px;
+    margin-left: 5px;
+    color: white;
+    
+}
