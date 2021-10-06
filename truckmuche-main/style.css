@@ -125,7 +125,7 @@ nav a:hover{
 /*fin header*/
 
 
-/*history*/
+/*home*/
 
 
 .secproduits{
@@ -147,20 +147,38 @@ nav a:hover{
 
 .photosproduitsindex img{
     display: flex;
-    width: 80%;
-   
-    height: 180px;
-    margin: 10px auto;
+    height: 250px;
+}
+
+
+/*CSS page apropos*/
+
+#photomarc {
+    width: 200px;
+    height: 200px;
+    background:url(src/portrait\ marc.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left; 
+    shape-outside: circle();
+    margin: 30px;
 
 }
 
+#monhistoire {
+    text-align: center;
+
+}
+ 
 /* carte*/
 .localitation{
     width: 95%;
     margin: 15px auto;
 }
-    
-footer h1 {
+
+/*CSS page formulaire*/
+
+#contacteznous {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -227,6 +245,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 25%;
 }
 
 footer p, h3 {
@@ -312,7 +331,7 @@ a {
     margin-bottom: 50%;
 }
 
-/*Css reponsive */
+/*CSS responsive (min-width: 768px)*/
 
 @media screen and (min-width: 768px) {
 
@@ -338,6 +357,22 @@ a {
     .contentAbove {
         padding-top: 18%;
     }
+
+/*CSS respnsive page contact*/
+
+    #contacteznous {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+    .textecontact{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+/*Css reponsive page présentation des gateaux*/
 
     .photosProduits img{
         width: 300px;
@@ -369,7 +404,7 @@ a {
         height: 250px;
     }
 
-.calendrier ul li {
+    .calendrier ul li {
     margin-bottom: 8px;
     margin-left: 5px;
     color: white;
