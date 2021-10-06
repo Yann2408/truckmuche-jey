@@ -41,7 +41,7 @@
             <p>L'équipe de Truckmuche est à votre écoute. Une idée pour améliorer notre offre ? Une question sur l'origine de nos produits ? Une proposition pour venir à votre événement ou votre lieu ? Ou juste quelques mots doux à propos de nos cookies ? 
                 N'hésitez plus et contactez-nous de suite ! </p>
         </div>
-            <form action="/ma-page-de-traitement" method="post">
+            <form action="contact.php" method="post">
                 <div id="blockname">
                     <label for="name"></label>
                     <input type="text" id="surname" name="user_surname" placeholder="Nom">
@@ -57,11 +57,12 @@
                     <label for="msg"></label>
                     <textarea id="msg" name="user_message" placeholder="Écrivez-nous des mots doux"></textarea>
 
-                    <input type="button" value="Envoyer le message" id="sendmsg">
-                
+                    <button type="submit" id="sendmsg">Envoyer un message</button>
+
                 </div>
             </form>
         
+
     </section>
    
     <footer>
