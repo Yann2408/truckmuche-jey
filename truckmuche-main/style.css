@@ -53,6 +53,10 @@ p {
     margin-bottom: 30px;
 }
 
+.content{
+    margin-bottom: 30px;
+}
+
 /* Animations CSS */ 
 
 .photosProduits, .photosProduits span {
@@ -214,7 +218,6 @@ button {
     float: left; 
     shape-outside: circle();
     margin: 30px;
-
 }
 
 #monhistoire {
