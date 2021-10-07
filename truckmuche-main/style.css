@@ -44,6 +44,7 @@ p {
 
 .imgentete {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 /* Animations CSS */ 
@@ -170,7 +171,6 @@ nav a:hover{
 
 #monhistoire {
     text-align: center;
-
 }
  
 /* carte*/
@@ -232,10 +232,25 @@ input, textarea {
     font-family: Lato;
 }
 
+#submitcontact {
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    background-color:#1a2b44;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 input, textarea::placeholder{
     padding-left: 15px;
-
 }
+
+textarea::placeholder{
+    margin-left: 15px;
+    /*text-align:center;*/
+}
+
 input:focus{
     outline: none !important;
     border:2px solid #1a2b44;
@@ -362,13 +377,13 @@ textarea:focus{
 }
 
 .content {
-	flex-grow:1;
+	/*flex-grow:0;*/
 }
 
 footer {
     box-sizing: border-box;
     background-color: #1a2b44;
-    padding: 0px 15px 15px 15px;
+    padding: 0px 15px 15px 0px;
     align-items: center;
     color: white;
     width: 100%;
@@ -380,7 +395,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-right: 15px;
+    margin-right: 0px;
     margin-left: 15px;
     text-align: center;
 }
@@ -407,9 +422,6 @@ a {
     width: 20px;
 }
 
-#sendmsg{
-    margin-bottom: 20px;
-}
 
 /*CSS responsive (min-width: 768px)*/
 
