@@ -20,7 +20,7 @@
             <header>
                 <div class="header">
             
-                    <a href="index.html"><img src="/img/logo-web.png" alt="Logo Truckmuche"></a>
+                    <a href="index.html"><img src="img/logo-web.png" alt="Logo Truckmuche"></a>
             
                     <nav>
                         <a href="apropos.html">A propos</a>
@@ -31,45 +31,69 @@
                 </div>
             </header>
         </div>
-        <div class="content">
-            <section>
-                <img class="contentAbove" src="/src/truckmuche-foodtruck.jpg" alt="photo du Truckmuche">
-                <h1>Truckmuche</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin et risus ac elementum. Vivamus
-                    libero elit, pretium eget pulvinar venenatis, facilisis at libero. Morbi rutrum, nisl suscipit semper
-                    molestie, eros arcu volutpat massa,
-                </p>
-                <a href="/apropos.html" class="buttons">En savoir plus sur Truckmuche</a>
+
+            <section id="contentIndex" class="contentAbove">
+                <img src="src/truckmuche-foodtruck.jpg" alt="photo du Truckmuche">
+                    <div id="txtIndex1">
+                        <h1>Truckmuche</h1>
+                        <p>Bien plus qu'un food-truck, Truckmuche est un rayon de soleil se baladant aux quatre coins de la ville.
+                            Accueil convivial, prix tout doux, produits rimant avec qualité et équité, Truckmuche, laissez-vous tenter et venez goûter nos cookies, canelés et autres biscuits de la région ! 
+                        </p>
+                        <button href="apropos.html" class="buttons">En savoir plus sur Truckmuche</button>
+                    </div>
             </section>
+
 
             <section class="secProduits">
                 <h2>Nos Produits</h2>
-                <p>Bla bla sur les produits</p>
-                <div class="photosproduits">
-                    <img src="/src/cookies classiques.jpg" alt="">
-                    <img src="/src/langues de chat.jpg" alt="">
-                    <img src="/src/rochers coco.jpg" alt="">
+
+                <div id="presentationProduits">
+                    <p>Tous nos gateaux sont évidemment fait maison, tous nos ingrédients sont issues de l'agriculture biologique et sont respectueux de l'environnement. Tout cela pour vous garantir un produit sain et authentique qui ravira vos papilles !  </p>
                 </div>
-                <a href="/apropos.html" class="buttons">Découvrez tous nos produits</a>
+    
+                <div class="photosProduits fadeInBottom">
+                    <div class="gateauxEtDescription">
+                        <a href="src/cookies cacahuète.png" target="_blank"><img src="src/cookies cacahuète.png" alt="Photo gateaux"></a>
+                        <p class="nomGateaux">Cookies Cacahuète</p>
+                        <p class="descriptionGateaux">Cacahuètes entières et beurre de cacahuète, double plaisir coupable !</p>
+                    </div>
+                    <div class="gateauxEtDescription">
+                        <img src="src/cookies classiques.jpg" alt="Photo gateaux">
+                        <P class="nomGateaux">Cookies Classiques</P>
+                        <p class="descriptionGateaux">Classiques mais terriblement bons !</p>
+                    </div>
+                    <div class="gateauxEtDescription">
+                        <img src="src/cookies pécan.jpg" alt="Photo gateaux">
+                        <p class="nomGateaux">Cookies Pécan</p>
+                        <p class="descriptionGateaux">Plus américain tu meurs !</p>
+                    </div>
+                    <div class="gateauxEtDescription">
+                        <img src="src/biscuits amaretti.jpg" alt="Photo gateaux">
+                        <P class="nomGateaux">Biscuits Amaretti</P>
+                        <p class="descriptionGateaux">La gourmandise croustillante au bon goût d'amande amère</p>
+                    </div>
+                </div>
+
+                <button href="/apropos.html" class="buttons">Découvrez tous nos produits</button>
             </section>
 
-            <section class="localitation">
+            <section class="localisation">
                 <h2>Où et quand nous trouver</h2>
                 <div class="carte">
-                    <iframe width="95%" height="180px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    <iframe width="90%" height="180px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                         src="https://www.openstreetmap.org/export/embed.html?bbox=-1.5595462918281555%2C47.213893115473184%2C-1.5577223896980288%2C47.21484597438411&amp;layer=mapnik"
                         style="border: 1px solid black"></iframe>
                 </div>
             </section>
             <section class="calendrier">
                 <h2>Calendrier</h2>
-                <h3>Semaine x</h3>
+                <h3> ← Du 11 au 15 octobre →</h3>
                 <ul>
-                    <li>Lundi</li>
-                    <li>Mardi</li>
-                    <li>Mercredi</li>
-                    <li>Jeudi</li>
-                    <li>Vendredi</li>
+                    <li><span class="calendarDate">Lundi 11 :</span> 12h-14h • Place du Commerce, Nantes</li>
+                    <li><span class="calendarDate">Mardi 12 :</span> 12h-14h • Place du Commerce, Nantes</li>
+                    <li><span class="calendarDate">Mercredi 13 :</span> 12h-14h • Place du Commerce, Nantes</li>
+                    <li><span class="calendarDate">Jeudi 14 :</span> 12h-14h • Place du Commerce, Nantes</li>
+                    <li><span class="calendarDate">Vendredi 15 :</span> 12h-14h • Place du Commerce, Nantes</li>
                 </ul>
             </section>
         </div>
