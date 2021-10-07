@@ -12,71 +12,77 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="header">
-    
-            <a href="index.html"><img src="img/logo-web.png" alt="Logo Truckmuche"></a>
-    
-            <nav>
-                <a href="apropos.html">A propos</a>
-                <a href="gateaux.html">Produits</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-    
-        </div>
-    </header>
-
-    <div class="contentAbove">
-        <img id="imgContact" src="img/truckmuche-foodtruck.jpg" alt="photo du Truckmuche">
-    </div>
-
-    <section id="pageform">
-        <div id="text">
-            <h1 id="contacteznous">Contactez-nous</h1>
-                <p class="textecontact">L'équipe de Truckmuche est à votre écoute. Une idée pour améliorer notre offre ? Une question sur l'origine de nos produits ? Une proposition pour venir à votre événement ou votre lieu ? Ou juste quelques mots doux à propos de nos cookies ? 
-                     N'hésitez plus et contactez-nous de suite ! </p>
-        </div>
-            <form action="contact.php" method="post">
-                <div id="blockname">
-                    <label for="name"></label>
-                    <input type="text" id="surname" name="user_surname" placeholder="Nom">
-
-                    <label for="name"></label>
-                    <input type="text" id="name" name="user_name" placeholder="Prénom">
-                </div>
-                <div>
-                    <label for="mail"></label>
-                    <input type="email" id="mail" name="user_mail" placeholder="E-mail">
-                </div>
-                <div>
-                    <label for="msg"></label>
-                    <textarea id="msg" name="user_message" placeholder="Écrivez-nous des mots doux"></textarea>
-
-                    <button type="submit" id="sendmsg">Envoyer un message</button>
-
-                </div>
-            </form>
-     </section>
-   
-    <footer>
-        <div class="logo">
-            <img src="img/logo-web.png" alt="Logo Truckmuche">
-        </div>
+    <div class="page">
         <div>
-            <h3>Contact</h3>
-            <p><a href="mailto:truckmuche@gmail.com">truckmuche@gmail.com</a><br>
-            <span id="telephone">06.05.45.32.12</span>
-            </p>
+            <header>
+                <div class="header">
+            
+                    <a href="index.html"><img src="img/logo-web.png" alt="Logo Truckmuche"></a>
+            
+                    <nav>
+                        <a href="apropos.html">A propos</a>
+                        <a href="gateaux.html">Produits</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+
+                </div>
+            </header>
         </div>
-        <div id="logo RS">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-twitter-square"></i>
+
+        <div class="content">
+            <div class="contentAbove">
+                <img class="imgentete" src="img/truckmuche-foodtruck.jpg" alt="photo du Truckmuche">
+            </div>
+
+            <section id="pageform">
+                <div id="text">
+                    <h1 id="contacteznous">Contactez-nous</h1>
+                        <p class="textecontact">L'équipe de Truckmuche est à votre écoute. Une idée pour améliorer notre offre ? Une question sur l'origine de nos produits ? Une proposition pour venir à votre événement ou votre lieu ? Ou juste quelques mots doux à propos de nos cookies ? 
+                            N'hésitez plus et contactez-nous de suite ! </p>
+                </div>
+                    <form action="contact.php" method="post">
+                        <div id="blockname">
+                            <label for="name"></label>
+                            <input type="text" id="surname" name="user_surname" placeholder="Nom">
+
+                            <label for="name"></label>
+                            <input type="text" id="name" name="user_name" placeholder="Prénom">
+                        </div>
+                        <div>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_mail" placeholder="E-mail">
+                        </div>
+                        <div>
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" placeholder="Écrivez-nous des mots doux"></textarea>
+
+                            <button type="submit" id="sendmsg">Envoyer un message</button>
+
+                        </div>
+                    </form>
+            </section>
         </div>
-        <div id="copyright"> Copyright © Truckmuche 2021 • Mentions légales • Politique de confidentialité
+
+        <div class=footer>
+            <footer>
+                <section class=footerinfo>
+                    <img src="img/logo-web.png" alt="Logo Truckmuche">
+                    <div>
+                        <h3>Contact</h3>
+                        <p><a href="mailto:truckmuche@gmail.com">truckmuche@gmail.com</a><br>
+                        <span id="telephone">06.05.45.32.12</span>
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </section>
+                <div id="copyright"> Copyright © Truckmuche 2021 • Mentions légales • Politique de confidentialité
+                </div>
+            </footer>
         </div>
-    </footer>
-    
+    </div>   
 </body>
 </html>
