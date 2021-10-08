@@ -644,7 +644,7 @@ a {
         justify-content: space-between;
         flex-wrap: nowrap;
         margin-right: 0px;
-        margin-left: 15px;
+        margin-left: 0px;
         text-align: center;
     }
 
@@ -669,4 +669,27 @@ a {
     #monhistoire {
         text-align:center;
     }
+    .logoRS {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
+
+@media screen and (max-width: 442px) {
+
+    .footerinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /*flex-wrap: wrap;*/
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    
+    
+}
+
