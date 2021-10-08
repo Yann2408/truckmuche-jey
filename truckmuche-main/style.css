@@ -289,6 +289,7 @@ input, textarea {
     border-radius: 10px;
     text-align: center;
     text-transform: uppercase;
+    width: 100%;
 }
 
 input, textarea::placeholder{
@@ -630,11 +631,34 @@ a {
         margin-bottom: 8%;
     }
 
+
+    #infophotomarc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #photomarc {
+        width: 200px;
+        height: 200px;
+        background:url(src/portrait\ marc.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+        float: left; 
+        shape-outside: circle();
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #monhistoire {
+        text-align:center;
+    }
+
 }
 
-/*responsive footer*/
+/*responsive footer + À propos*/
 
-@media screen and (min-width: 443px) and (max-width: 513px) 
+@media screen and (min-width: 442px) and (max-width: 600px) 
 {
 
      .footerinfo {
@@ -648,6 +672,13 @@ a {
         text-align: center;
     }
 
+    .logoRS {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+
     #infophotomarc {
         display: flex;
         flex-direction: column;
@@ -655,8 +686,8 @@ a {
     }
     
     #photomarc {
-        width: 350px;
-        height: 350px;
+        width: 200px;
+        height: 200px;
         background:url(src/portrait\ marc.jpg);
         background-size: 100% 100%;
         border-radius: 50%;
@@ -668,11 +699,6 @@ a {
     
     #monhistoire {
         text-align:center;
-    }
-    .logoRS {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
     }
 }
 
