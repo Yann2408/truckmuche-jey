@@ -41,11 +41,11 @@ h3 {
 p {
     width: 95%;
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .contentAbove {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .imgentete {
@@ -207,7 +207,10 @@ button {
    }
 
 
-/*CSS page apropos*/
+/*CSS page apropos
+
+
+}*/
 
 #photomarc {
     width: 350px;
@@ -223,6 +226,7 @@ button {
 #monhistoire {
     text-align:center;
 }
+
 
 /*CSS page formulaire*/
 
@@ -525,7 +529,11 @@ a {
     text-align: center;
 }
 
-/*CSS respnsive page contact*/
+/* CSS responsive page À propos */
+
+
+
+/*CSS responsive page contact*/
 
     #contacteznous {
     font-size: 30px;
@@ -638,5 +646,27 @@ a {
         margin-right: 0px;
         margin-left: 15px;
         text-align: center;
+    }
+
+    #infophotomarc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #photomarc {
+        width: 350px;
+        height: 350px;
+        background:url(src/portrait\ marc.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+        float: left; 
+        shape-outside: circle();
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #monhistoire {
+        text-align:center;
     }
 }
