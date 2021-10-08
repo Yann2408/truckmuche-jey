@@ -579,3 +579,21 @@ a {
         margin-bottom: 8%;
     }
 }
+
+/*responsive footer*/
+
+@media screen and (min-width: 443px) and (max-width: 513px){
+
+     .footerinfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-right: 0px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+}
+
