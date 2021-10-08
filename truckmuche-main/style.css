@@ -620,9 +620,14 @@ a {
 
     #gateauxBoutons {
         margin-bottom: 8%;
+    }
+
+}
+
 /*responsive footer*/
 
-@media screen and (min-width: 443px) and (max-width: 513px){
+@media screen and (min-width: 443px) and (max-width: 513px) 
+{
 
      .footerinfo {
         display: flex;
@@ -634,7 +639,4 @@ a {
         margin-left: 15px;
         text-align: center;
     }
-
 }
-
-/* Bravo, tu es arrivé.e à la fin du CSS*/ 
